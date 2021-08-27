@@ -1,0 +1,34 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (MonicaRemakeAllegro.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
+  Objeto.cpp
+  MonicaRemakeEditor.cpp
+  Jogo.cpp
+  Generating Code...
+Jogo.obj : error LNK2019: unresolved external symbol __imp__al_init_primitives_addon referenced in function "public: void __thiscall Jogo::init(void)" (?init@Jogo@@QAEXXZ)
+Jogo.obj : error LNK2019: unresolved external symbol "public: struct ALLEGRO_BITMAP * __thiscall Imagem::getImagem(void)" (?getImagem@Imagem@@QAEPAUALLEGRO_BITMAP@@XZ) referenced in function "public: void __thiscall Jogo::init(void)" (?init@Jogo@@QAEXXZ)
+Jogo.obj : error LNK2019: unresolved external symbol "public: float __thiscall Imagem::getPosX(void)" (?getPosX@Imagem@@QAEMXZ) referenced in function "public: void __thiscall Jogo::cameraUpdate(float *,float,float,int,int)" (?cameraUpdate@Jogo@@QAEXPAMMMHH@Z)
+Jogo.obj : error LNK2019: unresolved external symbol "public: void __thiscall Imagem::setPosX(float)" (?setPosX@Imagem@@QAEXM@Z) referenced in function "public: void __thiscall Jogo::input(void)" (?input@Jogo@@QAEXXZ)
+Objeto.obj : error LNK2001: unresolved external symbol "public: void __thiscall Imagem::setPosX(float)" (?setPosX@Imagem@@QAEXM@Z)
+Jogo.obj : error LNK2019: unresolved external symbol "public: float __thiscall Imagem::getPosY(void)" (?getPosY@Imagem@@QAEMXZ) referenced in function "public: void __thiscall Jogo::cameraUpdate(float *,float,float,int,int)" (?cameraUpdate@Jogo@@QAEXPAMMMHH@Z)
+Objeto.obj : error LNK2001: unresolved external symbol "public: float __thiscall Imagem::getPosY(void)" (?getPosY@Imagem@@QAEMXZ)
+Jogo.obj : error LNK2019: unresolved external symbol "public: void __thiscall Imagem::setPosY(float)" (?setPosY@Imagem@@QAEXM@Z) referenced in function "public: void __thiscall Jogo::input(void)" (?input@Jogo@@QAEXXZ)
+Objeto.obj : error LNK2001: unresolved external symbol "public: void __thiscall Imagem::setPosY(float)" (?setPosY@Imagem@@QAEXM@Z)
+Jogo.obj : error LNK2019: unresolved external symbol "public: float __thiscall Imagem::getWidth(void)" (?getWidth@Imagem@@QAEMXZ) referenced in function "public: void __thiscall Jogo::cameraUpdate(float *,float,float,int,int)" (?cameraUpdate@Jogo@@QAEXPAMMMHH@Z)
+Jogo.obj : error LNK2019: unresolved external symbol "public: float __thiscall Imagem::getHeight(void)" (?getHeight@Imagem@@QAEMXZ) referenced in function "public: void __thiscall Jogo::cameraUpdate(float *,float,float,int,int)" (?cameraUpdate@Jogo@@QAEXPAMMMHH@Z)
+Jogo.obj : error LNK2019: unresolved external symbol "public: __thiscall Tile::Tile(char const *,int,int)" (??0Tile@@QAE@PBDHH@Z) referenced in function "public: void __thiscall Jogo::init(void)" (?init@Jogo@@QAEXXZ)
+Jogo.obj : error LNK2019: unresolved external symbol "public: __thiscall Tile::~Tile(void)" (??1Tile@@QAE@XZ) referenced in function "public: void * __thiscall Tile::`scalar deleting destructor'(unsigned int)" (??_GTile@@QAEPAXI@Z)
+Jogo.obj : error LNK2019: unresolved external symbol "public: __thiscall Map::Map(void)" (??0Map@@QAE@XZ) referenced in function "public: void __thiscall Jogo::init(void)" (?init@Jogo@@QAEXXZ)
+Jogo.obj : error LNK2019: unresolved external symbol "public: __thiscall Map::~Map(void)" (??1Map@@QAE@XZ) referenced in function "public: void * __thiscall Map::`scalar deleting destructor'(unsigned int)" (??_GMap@@QAEPAXI@Z)
+Jogo.obj : error LNK2019: unresolved external symbol "public: int __thiscall Map::getMap(int,int)" (?getMap@Map@@QAEHHH@Z) referenced in function "public: void __thiscall Jogo::update(void)" (?update@Jogo@@QAEXXZ)
+Jogo.obj : error LNK2019: unresolved external symbol "public: int __thiscall Map::getBlocoX(int,int)" (?getBlocoX@Map@@QAEHHH@Z) referenced in function "public: int __thiscall Jogo::colisaoMapa(class Objeto *,class Map *,int,int)" (?colisaoMapa@Jogo@@QAEHPAVObjeto@@PAVMap@@HH@Z)
+Jogo.obj : error LNK2019: unresolved external symbol "public: int __thiscall Map::getBlocoY(int,int)" (?getBlocoY@Map@@QAEHHH@Z) referenced in function "public: int __thiscall Jogo::colisaoMapa(class Objeto *,class Map *,int,int)" (?colisaoMapa@Jogo@@QAEHPAVObjeto@@PAVMap@@HH@Z)
+Jogo.obj : error LNK2019: unresolved external symbol "public: bool __thiscall Map::loadMap(char const *,class Tile *)" (?loadMap@Map@@QAE_NPBDPAVTile@@@Z) referenced in function "public: void __thiscall Jogo::init(void)" (?init@Jogo@@QAEXXZ)
+Jogo.obj : error LNK2019: unresolved external symbol "public: int __thiscall Map::getTamVertical(void)" (?getTamVertical@Map@@QAEHXZ) referenced in function "public: void __thiscall Jogo::update(void)" (?update@Jogo@@QAEXXZ)
+Jogo.obj : error LNK2019: unresolved external symbol "public: int __thiscall Map::getTamHorizontal(void)" (?getTamHorizontal@Map@@QAEHXZ) referenced in function "public: void __thiscall Jogo::update(void)" (?update@Jogo@@QAEXXZ)
+Jogo.obj : error LNK2019: unresolved external symbol "public: struct ALLEGRO_BITMAP * __thiscall Map::getImagem(void)" (?getImagem@Map@@QAEPAUALLEGRO_BITMAP@@XZ) referenced in function "public: void __thiscall Jogo::cameraUpdate(float *,float,float,int,int)" (?cameraUpdate@Jogo@@QAEXPAMMMHH@Z)
+Objeto.obj : error LNK2019: unresolved external symbol "public: __thiscall Imagem::Imagem(void)" (??0Imagem@@QAE@XZ) referenced in function "public: __thiscall Objeto::Objeto(char const *,float,float,float,float,int,int)" (??0Objeto@@QAE@PBDMMMMHH@Z)
+Objeto.obj : error LNK2019: unresolved external symbol "public: void __thiscall Imagem::setImagem(char const *)" (?setImagem@Imagem@@QAEXPBD@Z) referenced in function "public: __thiscall Objeto::Objeto(char const *,float,float,float,float,int,int)" (??0Objeto@@QAE@PBDMMMMHH@Z)
+Objeto.obj : error LNK2019: unresolved external symbol "public: void __thiscall Imagem::setWidth(float)" (?setWidth@Imagem@@QAEXM@Z) referenced in function "public: __thiscall Objeto::Objeto(char const *,float,float,float,float,int,int)" (??0Objeto@@QAE@PBDMMMMHH@Z)
+Objeto.obj : error LNK2019: unresolved external symbol "public: void __thiscall Imagem::setHeight(float)" (?setHeight@Imagem@@QAEXM@Z) referenced in function "public: __thiscall Objeto::Objeto(char const *,float,float,float,float,int,int)" (??0Objeto@@QAE@PBDMMMMHH@Z)
+Objeto.obj : error LNK2019: unresolved external symbol "public: __thiscall Imagem::~Imagem(void)" (??1Imagem@@QAE@XZ) referenced in function __unwindfunclet$??0Objeto@@QAE@PBDMMMMHH@Z$0
+C:\Users\henrm\source\repos\MonicaRemakeEditor\Debug\MonicaRemakeEditor.exe : fatal error LNK1120: 24 unresolved externals
