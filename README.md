@@ -17,3 +17,9 @@ Starts of a remake of this game written in C++ (not completed project)
 
 ### Continuidade do projeto
 -Até o momento não há interesse na continuidade do projeto, mas quem sabe um dia... 
+
+## Imagens do Projeto
+### Jogo
+![imagem do jogo](jogo.JPG)
+### Editor de Fases
+![imagem do editor de fases](editor.JPG)
